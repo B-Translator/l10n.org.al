@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the bcl_sq_content feature.
+ */
+
+include_once 'bcl_sq_content.features.inc';
