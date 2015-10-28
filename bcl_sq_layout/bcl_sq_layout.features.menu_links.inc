@@ -10,6 +10,26 @@
 function bcl_sq_layout_menu_default_menu_links() {
   $menu_links = array();
 
+  // Exported menu link: main-menu_about:node/12.
+  $menu_links['main-menu_about:node/12'] = array(
+    'menu_name' => 'main-menu',
+    'link_path' => 'node/12',
+    'router_path' => 'node/%',
+    'link_title' => 'About',
+    'options' => array(
+      'attributes' => array(
+        'title' => 'About this website.',
+      ),
+      'identifier' => 'main-menu_about:node/12',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -44,
+    'customized' => 1,
+  );
   // Exported menu link: main-menu_contact:contact.
   $menu_links['main-menu_contact:contact'] = array(
     'menu_name' => 'main-menu',
@@ -30,6 +50,26 @@ function bcl_sq_layout_menu_default_menu_links() {
     'weight' => -45,
     'customized' => 1,
   );
+  // Exported menu link: main-menu_fjalort:vocabularies.
+  $menu_links['main-menu_fjalort:vocabularies'] = array(
+    'menu_name' => 'main-menu',
+    'link_path' => 'vocabularies',
+    'router_path' => 'vocabularies',
+    'link_title' => 'Fjalorët',
+    'options' => array(
+      'attributes' => array(
+        'title' => '',
+      ),
+      'identifier' => 'main-menu_fjalort:vocabularies',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -46,
+    'customized' => 1,
+  );
   // Exported menu link: main-menu_home:<front>.
   $menu_links['main-menu_home:<front>'] = array(
     'menu_name' => 'main-menu',
@@ -47,11 +87,74 @@ function bcl_sq_layout_menu_default_menu_links() {
     'weight' => -50,
     'customized' => 0,
   );
+  // Exported menu link: main-menu_prkthimet:translations/.
+  $menu_links['main-menu_prkthimet:translations/'] = array(
+    'menu_name' => 'main-menu',
+    'link_path' => 'translations/',
+    'router_path' => 'translations',
+    'link_title' => 'Përkthimet',
+    'options' => array(
+      'attributes' => array(
+        'title' => '',
+      ),
+      'identifier' => 'main-menu_prkthimet:translations/',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -48,
+    'customized' => 1,
+  );
+  // Exported menu link: main-menu_projektet:btr/project.
+  $menu_links['main-menu_projektet:btr/project'] = array(
+    'menu_name' => 'main-menu',
+    'link_path' => 'btr/project',
+    'router_path' => 'btr/project',
+    'link_title' => 'Projektet',
+    'options' => array(
+      'attributes' => array(
+        'title' => 'Lista e projekteve',
+      ),
+      'identifier' => 'main-menu_projektet:btr/project',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -47,
+    'customized' => 1,
+  );
+  // Exported menu link: main-menu_udhzuesi:node/21.
+  $menu_links['main-menu_udhzuesi:node/21'] = array(
+    'menu_name' => 'main-menu',
+    'link_path' => 'node/21',
+    'router_path' => 'node/%',
+    'link_title' => 'Udhëzuesi',
+    'options' => array(
+      'attributes' => array(),
+      'identifier' => 'main-menu_udhzuesi:node/21',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -49,
+    'customized' => 1,
+  );
 
   // Translatables
   // Included for use with string extractors like potx.
+  t('About');
   t('Contact');
+  t('Fjalorët');
   t('Home');
+  t('Projektet');
+  t('Përkthimet');
+  t('Udhëzuesi');
 
   return $menu_links;
 }
