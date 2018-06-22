@@ -25,7 +25,7 @@ cat <<EOF > /etc/cron.d/twitter
 EOF
 
 ### fortune
-apt-get -y install fortune
+apt -y install fortunes
 cp -a fortunes/* /usr/share/games/fortunes/
 
 ### setup fortune

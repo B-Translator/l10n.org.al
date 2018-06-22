@@ -10,4 +10,4 @@ rm -f /usr/local/bin/twitter.sh /etc/cron.d/twitter
 rm -f /usr/local/bin/fortune.sh /etc/cron.d/fortune
 rm -rf /usr/share/games/fortunes/
 
-apt-get -y uninstall fortune
+apt -y purge fortunes
