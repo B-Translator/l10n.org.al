@@ -6,6 +6,7 @@ cd $(dirname $0)
 ### drupal features for layout and content
 drush -y dis bcl_content bcl_layout
 drush -y en  bcl_sq_content bcl_sq_layout
+drush -y fr  bcl_sq_content bcl_sq_layout
 
 ### setup twitter
 cat <<'EOF' > /usr/local/bin/twitter.sh
