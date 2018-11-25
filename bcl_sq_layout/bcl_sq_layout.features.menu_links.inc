@@ -11,7 +11,7 @@ function bcl_sq_layout_menu_default_menu_links() {
   $menu_links = array();
 
   // Exported menu link: main-menu_about:node/12.
-  $menu_links['main-menu_about:node/12'] = array(
+  $menu_links['main-menu_about:node/2'] = array(
     'menu_name' => 'main-menu',
     'link_path' => 'node/12',
     'router_path' => 'node/%',
@@ -20,7 +20,7 @@ function bcl_sq_layout_menu_default_menu_links() {
       'attributes' => array(
         'title' => 'About this website.',
       ),
-      'identifier' => 'main-menu_about:node/12',
+      'identifier' => 'main-menu_about:node/2',
     ),
     'module' => 'menu',
     'hidden' => 0,
@@ -127,24 +127,6 @@ function bcl_sq_layout_menu_default_menu_links() {
     'weight' => -47,
     'customized' => 1,
   );
-  // Exported menu link: main-menu_udhzuesi:node/21.
-  $menu_links['main-menu_udhzuesi:node/21'] = array(
-    'menu_name' => 'main-menu',
-    'link_path' => 'node/21',
-    'router_path' => 'node/%',
-    'link_title' => 'Udhëzuesi',
-    'options' => array(
-      'attributes' => array(),
-      'identifier' => 'main-menu_udhzuesi:node/21',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -49,
-    'customized' => 1,
-  );
 
   // Translatables
   // Included for use with string extractors like potx.
@@ -154,7 +136,6 @@ function bcl_sq_layout_menu_default_menu_links() {
   t('Home');
   t('Projektet');
   t('Përkthimet');
-  t('Udhëzuesi');
 
   return $menu_links;
 }

@@ -1,7 +1,6 @@
 Home {"url":"<front>","hidden":true,"options":{"identifier":"main-menu_home:<front>"},"weight":"-50"}
-Udhëzuesi {"url":"edit-profiles-and-invitations","options":{"identifier":"main-menu_udhzuesi:node\/21"},"weight":"-49"}
 Përkthimet {"url":"translations\/","options":{"attributes":{"title":""},"identifier":"main-menu_prkthimet:translations\/"},"weight":"-48"}
 Projektet {"url":"btr\/project","description":"Lista e projekteve","options":{"identifier":"main-menu_projektet:btr\/project"},"weight":"-47"}
 Fjalorët {"url":"vocabularies","options":{"attributes":{"title":""},"identifier":"main-menu_fjalort:vocabularies"},"weight":"-46"}
 Contact {"url":"contact","options":{"attributes":{"title":""},"identifier":"main-menu_contact:contact"},"weight":"-45"}
-About {"url":"about","description":"About this website.","options":{"identifier":"main-menu_about:node\/12"},"weight":"-44"}
+About {"url":"about","description":"About this website.","options":{"identifier":"main-menu_about:node\/2"},"weight":"-44"}

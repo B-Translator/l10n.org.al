@@ -3,10 +3,15 @@
 
 cd $(dirname $0)
 
+### delete exiting menus
+drush sqlq 'delete from menu_links'
+drush sqlq 'delete from menu_router'
+drush eval 'menu_rebuild();'
+
 ### drupal features for layout and content
-drush -y dis bcl_content bcl_layout
-drush -y en  bcl_sq_content bcl_sq_layout
-drush -y fr  bcl_sq_layout
+drush -y pm-disable bcl_content bcl_layout
+drush -y pm-enable  bcl_sq_content bcl_sq_layout
+drush -y feature-revert  bcl_sq_layout
 
 ### setup twitter
 cat <<'EOF' > /usr/local/bin/twitter.sh
